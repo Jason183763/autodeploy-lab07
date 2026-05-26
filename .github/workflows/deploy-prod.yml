@@ -36,4 +36,4 @@ jobs:
           host: ${{ secrets.PROD_HOST }}
           username: ${{ secrets.PROD_SSH_USER_NAME }}
           key: ${{ secrets.PROD_SSH_KEY }}
-          script: sudo chown -R root /var/www/htmlupdate
+          script: sudo chown -R root /var/www/html
